@@ -47,4 +47,4 @@ while True:
 			setArquivo(row)
 			print(f'linha {cont} adicionada')
 			cont += 1
-	sleep(10)
+	sleep(60)
