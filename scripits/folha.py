@@ -23,4 +23,4 @@ while True:
 			continue
 	con.commit()
 	con.close()
-	sleep(10)
+	sleep(120)
