@@ -1,4 +1,5 @@
 from selenium import webdriver
+from selenium.webdriver.firefox.options import Options
 import MySQLdb
 from time import sleep
 
@@ -14,7 +15,9 @@ while True:
 	con.select_db('base de dados')
 	cursor = con.cursor()
 
-	firefox = webdriver.Firefox()
+	option = Options()
+	option.headless = True
+	firefox = webdriver.Firefox(options=option)
 	#url do sbt/jornalismo
 	firefox.get('https://www.sbt.com.br/jornalismo')
 	cards = firefox.find_elements_by_class_name('cards')
@@ -29,4 +32,4 @@ while True:
 	con.commit()
 	con.close()
 	firefox.quit()
-	sleep(10)
+	sleep(120)
