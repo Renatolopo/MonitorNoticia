@@ -1,50 +1,26 @@
 import feedparser
+import requests
+import MySQLdb
 from time import sleep
-import pandas as pd
 
-#retorna a linha com uma noticia e remove os caracteres ", ' , e \n
 def getEntry(entry):
-	row = [f'{entry.title}',f'|{entry.title_detail}',f'|{entry.links}',f'|{entry.link}',f'|{entry.summary}',f'|{entry.summary_detail}'\
-	,f'|{entry.published}',f'|{entry.published_parsed}']
-	for i in range(0,len(row)):
-		row[i] =  row[i].replace("'", " ")
-		row[i] =  row[i].replace('"', " ")
-		row[i] =  row[i].replace('\n', " ")
+	row = [entry.title, entry.link, entry.summary, entry.published]
 	return row
 
-def criaArquivo():
-	fl = open('../output/folha.csv','w')
-	fl.write('title |title_detail |links |link |summary |summary_detail |published |published_parsed\n')
-	fl.close()
-#escreve uma linha no arquivo
-def setArquivo(row):
-	fl = open('../output/folha.csv','a')
-	for i in row:
-		fl.write(i)
-	fl.write('\n')
-	fl.close()
-
-#verifica se o titulo já existe no arquivo
-def titleInFile(title):
-	file = pd.read_csv('../output/folha.csv','r', delimiter = '|')
-	file = file.values
-	for i in file:
-		if title in i:
-			return True
-	return False
-
-criaArquivo()
-cont = 0
 while True:
-	# feed RSS do folha de São paulo
-	NewsFeed = feedparser.parse("https://feeds.folha.uol.com.br/emcimadahora/rss091.xml")
-	for entry in NewsFeed.entries:
+	con = MySQLdb.connect(host="servidor", user="usuario", passwd="senha", db="base de dados")
+	con.select_db('base de dados')
+	cursor = con.cursor()
+
+	Newsfeed = feedparser.parse('https://feeds.folha.uol.com.br/emcimadahora/rss091.xml')
+	for entry in Newsfeed.entries:
 		row = getEntry(entry)
-		title = row[0]
-		if titleInFile(title):
+		try:
+			cursor.execute('INSERT INTO Folha (TITLE, LINK, SUMMARY,PUBLISHED)\
+				VALUES (%s,%s,%s,%s)',(row[0],row[1],row[2],row[3]))
+			print(f'adicionado com sucesso\n')
+		except:
 			continue
-		else:
-			setArquivo(row)
-			print(f'linha {cont} adicionada')
-			cont += 1
-	sleep(60)
+	con.commit()
+	con.close()
+	sleep(10)
