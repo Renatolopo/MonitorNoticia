@@ -4,7 +4,7 @@ import MySQLdb
 chave_consumidor = 'xx'
 segredo_consumidor = 'xx'
 token_acesso = 'x-x'
-token_acesso_segredo = 'x'
+token_acesso_segredo = 'xx'
 
 autenticacao = tweepy.OAuthHandler(chave_consumidor, segredo_consumidor)
 autenticacao.set_access_token(token_acesso, token_acesso_segredo)
@@ -38,8 +38,8 @@ def getTweets(name, cursor):
 
 
 while True:
-	con = MySQLdb.connect(host="xx", user="xx", passwd="xx", db="xx")
-	con.select_db('xx')
+	con = MySQLdb.connect(host="xx", user="xx", passwd="xx", db="Monitor_de_noticias")
+	con.select_db('Monitor_de_noticias')
 	cursor = con.cursor()
 
 	trends = getTrends()

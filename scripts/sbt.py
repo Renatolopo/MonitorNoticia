@@ -11,8 +11,8 @@ def getCard(card):
 	return row
 
 while True:
-	con = MySQLdb.connect(host="servidor", user="usuario", passwd="senha", db="base de dados")
-	con.select_db('base de dados')
+	con = MySQLdb.connect(host="xx", user="xx", passwd="xx", db="Monitor_de_noticias")
+	con.select_db('Monitor_de_noticias')
 	cursor = con.cursor()
 
 	option = Options()
@@ -32,4 +32,4 @@ while True:
 	con.commit()
 	con.close()
 	firefox.quit()
-	sleep(120)
+	sleep(10)

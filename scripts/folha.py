@@ -4,12 +4,15 @@ import MySQLdb
 from time import sleep
 
 def getEntry(entry):
-	row = [entry.title, entry.link, entry.summary, entry.published]
+	try: 
+		row = [entry.title, entry.link, entry.summary, entry.published]
+	except:
+		row = ['null','null','null', 'null']
 	return row
 
 while True:
-	con = MySQLdb.connect(host="servidor", user="usuario", passwd="senha", db="base de dados")
-	con.select_db('base de dados')
+	con = MySQLdb.connect(host="xx", user="xx", passwd="xx", db="Monitor_de_noticias")
+	con.select_db('Monitor_de_noticias')
 	cursor = con.cursor()
 
 	Newsfeed = feedparser.parse('https://feeds.folha.uol.com.br/emcimadahora/rss091.xml')
@@ -23,4 +26,4 @@ while True:
 			continue
 	con.commit()
 	con.close()
-	sleep(120)
+	sleep(10)

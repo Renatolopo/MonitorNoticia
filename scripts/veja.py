@@ -18,8 +18,8 @@ def getNoticia(noticia):
 	return [titulo, descricao, data]
 
 while True:
-	con = MySQLdb.connect(host="servidor", user="usuario", passwd="senha", db="base de dados")
-	con.select_db('base de dados')
+	con = MySQLdb.connect(host="xx", user="xx", passwd="xx", db="Monitor_de_noticias")
+	con.select_db('Monitor_de_noticias')
 	cursor = con.cursor()
 
 	r = requests.get('https://veja.abril.com.br/blog/')
@@ -36,4 +36,4 @@ while True:
 			continue
 	con.commit()
 	con.close()
-	sleep(120)
+	sleep(10)

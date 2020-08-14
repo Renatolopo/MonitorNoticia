@@ -8,8 +8,8 @@ def getEntry(entry):
 	return row
 
 while True:
-	con = MySQLdb.connect(host="servidor", user="usuario", passwd="senha", db="base de dados")
-	con.select_db('base de dados')
+	con = MySQLdb.connect(host="xx", user="xx", passwd="xx", db="Monitor_de_noticias")
+	con.select_db('Monitor_de_noticias')
 	cursor = con.cursor()
 
 	NewsFeed = feedparser.parse("https://noticias.r7.com/feed.xml")
@@ -23,4 +23,4 @@ while True:
 			continue
 	con.commit()
 	con.close()
-	sleep(120)
+	sleep(10)

@@ -46,3 +46,11 @@ PUBLISHED varchar(255),
 primary key(ID)
 )default charset=utf8;
 
+CREATE TABLE Twitter(
+ID INT NOT NULL auto_increment,
+USUARIO VARCHAR(255),
+TWEET VARCHAR(1000) not null unique,
+DATA_TWEET VARCHAR(255),
+primary key(ID)
+)default charset=utf8;
+
