@@ -1,11 +1,10 @@
 import tweepy
-from time import sleep
 import MySQLdb
 
 chave_consumidor = 'xx'
 segredo_consumidor = 'xx'
-token_acesso = 'xx'
-token_acesso_segredo = 'xx'
+token_acesso = 'x-x'
+token_acesso_segredo = 'x'
 
 autenticacao = tweepy.OAuthHandler(chave_consumidor, segredo_consumidor)
 autenticacao.set_access_token(token_acesso, token_acesso_segredo)
@@ -26,23 +25,21 @@ def getTrends():
 def getTweets(name, cursor):
 	print(f'Buscando por {name}....')
 	resultados = twitter.search(q=name)
-	c = 0
-	for tweet in resultados:
-		print(f'Usuário: {tweet.user.screen_name} - Tweet: {tweet.text}\
-			Data: {tweet.created_at} \n\n')
-		c += 1
 
+	for tweet in resultados:
 		try: 
-			cursor.execute('INSERT INTO Twitter (USUARIO, TWEET, DATA_TWEET)\
+			cursor.execute('INSERT INTO Twitter1 (USUARIO, TWEET, DATA_TWEET)\
 				VALUES(%s, %s, %s)',(tweet.user.screen_name, tweet.text, tweet.created_at))
 			print("Adicionado.....")
 		except:
+			# essa exceção acontece caso o tweet já exista na base de dados
+			print('NÂO ADICIONADO*********')
 			continue
 
 
 while True:
 	con = MySQLdb.connect(host="xx", user="xx", passwd="xx", db="xx")
-	con.select_db('Monitor_de_noticias')
+	con.select_db('xx')
 	cursor = con.cursor()
 
 	trends = getTrends()
