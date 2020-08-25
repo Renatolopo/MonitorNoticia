@@ -24,17 +24,22 @@ def getTrends():
 
 def getTweets(name, cursor):
 	print(f'Buscando por {name}....')
-	resultados = twitter.search(q=name)
+	try:
+		resultados = twitter.search(q=name)
 
-	for tweet in resultados:
-		try: 
-			cursor.execute('INSERT INTO Twitter1 (USUARIO, TWEET, DATA_TWEET)\
-				VALUES(%s, %s, %s)',(tweet.user.screen_name, tweet.text, tweet.created_at))
-			print("Adicionado.....")
-		except:
-			# essa exceção acontece caso o tweet já exista na base de dados
-			print('NÂO ADICIONADO*********')
-			continue
+		for tweet in resultados:
+			try: 
+				cursor.execute('INSERT INTO Twitter (USUARIO, TWEET, DATA_TWEET)\
+					VALUES(%s, %s, %s)',(tweet.user.screen_name, tweet.text, tweet.created_at))
+				print("Adicionado.....")
+			except:
+				# essa exceção acontece caso o tweet já exista na base de dados
+				print('NÂO ADICIONADO*********')
+				continue
+
+	except tweepy.error.RateLimitError:
+		print('Limite de acesso da API atingido... aguarde')
+		sleep(60 * 16)
 
 
 while True:
