@@ -1,5 +1,5 @@
 CREATE DATABASE Monitor_de_noticias;
-use Monitor_de_noticias;
+USE Monitor_de_noticias;
 
 CREATE TABLE veja(
 ID int not null auto_increment,
