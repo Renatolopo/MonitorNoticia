@@ -38,7 +38,7 @@ def getTweets(name, cursor):
 				continue
 
 	except tweepy.error.RateLimitError:
-		print('Limite de acesso da API atingido... aguarde')
+		print('Limite de acesso da API atingido... será retomado após 60 min')
 		sleep(60 * 60)
 
 
