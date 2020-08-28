@@ -20,7 +20,8 @@ while True:
 			 VALUES (%s,%s,%s,%s)',(row[0], row[1], row[2], row[3]))
 			print('adicionado com sucesso')
 		except:
+			#exeção gerada quando a noticia já existe no banco de dados
 			continue
 	con.commit()
 	con.close()
-	sleep(10)
+	sleep(60 * 3)

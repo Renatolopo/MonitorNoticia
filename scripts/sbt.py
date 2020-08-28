@@ -28,8 +28,9 @@ while True:
 				VALUES (%s,%s,%s)',(row[0],row[1],row[2]))
 			print(f'adicionado com sucesso\n')
 		except:
+			#exeção gerada quando a noticia já existe no banco de dados
 			continue
 	con.commit()
 	con.close()
 	firefox.quit()
-	sleep(10)
+	sleep(60*3)

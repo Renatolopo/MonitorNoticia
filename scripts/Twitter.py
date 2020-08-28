@@ -1,13 +1,13 @@
 import tweepy
 import MySQLdb
 
-chave_consumidor = 'xx'
-segredo_consumidor = 'xx'
-token_acesso = 'x-x'
-token_acesso_segredo = 'xx'
+api_key = 'DkxBvaO3g3VxsEguC1jyv7USW'
+api_key_secret = 'GbfVF3TvjOZcYTPjR4w4RoxSM1tjJMzJXEXBCxAxZNWnfPUPyw'
+access_token = '2559540815-JAVBuM9UWAft9WED76vUNFnUXaKGFbO2UixK4WC'
+access_token_secret = 'u4RycdCpGDG9uT3DJQNoGE7sWRPHRSuCtakF20x0Z4UrY'
 
-autenticacao = tweepy.OAuthHandler(chave_consumidor, segredo_consumidor)
-autenticacao.set_access_token(token_acesso, token_acesso_segredo)
+autenticacao = tweepy.OAuthHandler(api_key, api_key_secret)
+autenticacao.set_access_token(access_token, access_token_secret)
 twitter = tweepy.API(autenticacao)
 
 
@@ -39,7 +39,7 @@ def getTweets(name, cursor):
 
 	except tweepy.error.RateLimitError:
 		print('Limite de acesso da API atingido... aguarde')
-		sleep(60 * 16)
+		sleep(60 * 60)
 
 
 while True:
