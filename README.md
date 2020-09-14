@@ -1,5 +1,5 @@
 # MonitorNoticia
-
+## Coleta de dados
 * Bibliotecas necessárias:
   - selenium
   - feedparser
