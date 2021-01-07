@@ -1,0 +1,761 @@
+1607514355997	geckodriver	INFO	Listening on 127.0.0.1:37111
+1607514356003	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile5WfNkJ"
+
+(firefox:18625): Gtk-WARNING **: 08:45:56.740: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 08:45:56.792: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:18872): Gtk-WARNING **: 08:45:58.840: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 08:45:58.876: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:18872): Gtk-WARNING **: 08:45:59.051: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:18872): Gtk-WARNING **: 08:45:59.051: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:18872): Gtk-WARNING **: 08:45:59.052: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:18872): Gtk-WARNING **: 08:45:59.052: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:18895): Gtk-WARNING **: 08:45:59.052: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 08:45:59.089: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:18895): Gtk-WARNING **: 08:45:59.294: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:18895): Gtk-WARNING **: 08:45:59.294: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:18895): Gtk-WARNING **: 08:45:59.294: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:18895): Gtk-WARNING **: 08:45:59.294: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(firefox:18625): GLib-GIO-WARNING **: 08:45:59.422: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+
+(/usr/lib/firefox/firefox:18989): Gtk-WARNING **: 08:46:00.489: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 08:46:00.526: Failed to load module "appmenu-gtk-module"
+1607514360626	Marionette	INFO	Listening on port 46129
+1607514360731	Marionette	WARN	TLS certificate errors will be ignored for this session
+1607514374374	Marionette	INFO	Stopped listening on port 46129
+1607514401829	geckodriver	INFO	Listening on 127.0.0.1:38937
+1607514401835	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilekhYNqO"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607514404091	Marionette	INFO	Listening on port 44237
+1607514404168	Marionette	WARN	TLS certificate errors will be ignored for this session
+1607514468816	Marionette	INFO	Stopped listening on port 44237
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1031: Error: Sqlite.jsm has been shutdown. Cannot open connection to: /tmp/rust_mozprofilekhYNqO/protections.sqlite
+1607515552593	geckodriver	INFO	Listening on 127.0.0.1:36157
+1607515552599	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilerg2ttb"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607515554966	Marionette	INFO	Listening on port 38569
+1607515555034	Marionette	WARN	TLS certificate errors will be ignored for this session
+1607515703719	geckodriver	INFO	Listening on 127.0.0.1:36407
+1607515703725	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilex2HK1g"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607515706008	Marionette	INFO	Listening on port 35089
+1607515706063	Marionette	WARN	TLS certificate errors will be ignored for this session
+1607515718982	Marionette	INFO	Stopped listening on port 35089
+1607516031618	geckodriver	INFO	Listening on 127.0.0.1:42923
+1607516031624	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilekHHnIA"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607516033453	Marionette	INFO	Listening on port 33789
+1607516033554	Marionette	WARN	TLS certificate errors will be ignored for this session
+1607516095286	geckodriver	INFO	Listening on 127.0.0.1:36287
+1607516095293	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileqnC6Rs"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607516097215	Marionette	INFO	Listening on port 42199
+1607516097328	Marionette	WARN	TLS certificate errors will be ignored for this session
+1607516103065	Marionette	INFO	Stopped listening on port 42199
+1607516167605	geckodriver	INFO	Listening on 127.0.0.1:56223
+1607516167610	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileyhqmaD"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607516169238	Marionette	INFO	Listening on port 43663
+1607516169359	Marionette	WARN	TLS certificate errors will be ignored for this session
+1607516174991	Marionette	INFO	Stopped listening on port 43663
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1607517167973	geckodriver	INFO	Listening on 127.0.0.1:37963
+1607517167977	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileNehVzo"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607517170172	Marionette	INFO	Listening on port 36047
+1607517170278	Marionette	WARN	TLS certificate errors will be ignored for this session
+1607517235629	geckodriver	INFO	Listening on 127.0.0.1:47141
+1607517235634	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileuzaH0z"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607517237325	Marionette	INFO	Listening on port 43917
+1607517237361	Marionette	WARN	TLS certificate errors will be ignored for this session
+1607517254220	Marionette	INFO	Stopped listening on port 43917
+1607517300329	geckodriver	INFO	Listening on 127.0.0.1:59291
+1607517300335	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilerHjbl5"
+
+(firefox:29962): Gtk-WARNING **: 09:35:00.396: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 09:35:00.417: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:30189): Gtk-WARNING **: 09:35:01.204: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 09:35:01.230: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:30216): Gtk-WARNING **: 09:35:01.331: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 09:35:01.363: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:30189): Gtk-WARNING **: 09:35:01.373: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:30189): Gtk-WARNING **: 09:35:01.373: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:30189): Gtk-WARNING **: 09:35:01.373: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:30189): Gtk-WARNING **: 09:35:01.374: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:30216): Gtk-WARNING **: 09:35:01.534: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:30216): Gtk-WARNING **: 09:35:01.535: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:30216): Gtk-WARNING **: 09:35:01.535: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:30216): Gtk-WARNING **: 09:35:01.535: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(firefox:29962): GLib-GIO-WARNING **: 09:35:01.602: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+
+(/usr/lib/firefox/firefox:30302): Gtk-WARNING **: 09:35:02.473: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 09:35:02.502: Failed to load module "appmenu-gtk-module"
+1607517302549	Marionette	INFO	Listening on port 39043
+1607517302675	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:30302): Gtk-WARNING **: 09:35:04.757: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:30302): Gtk-WARNING **: 09:35:04.758: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:30302): Gtk-WARNING **: 09:35:04.758: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:30302): Gtk-WARNING **: 09:35:04.758: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:30348): Gtk-WARNING **: 09:35:04.859: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 09:35:04.888: Failed to load module "appmenu-gtk-module"
+1607517313478	Marionette	INFO	Stopped listening on port 39043
+1607517328240	geckodriver	INFO	Listening on 127.0.0.1:56413
+1607517328246	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileNu5i3b"
+
+(firefox:30495): Gtk-WARNING **: 09:35:28.287: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 09:35:28.312: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:30729): Gtk-WARNING **: 09:35:29.050: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 09:35:29.076: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:30752): Gtk-WARNING **: 09:35:29.194: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 09:35:29.226: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:30729): Gtk-WARNING **: 09:35:29.244: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:30729): Gtk-WARNING **: 09:35:29.244: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:30729): Gtk-WARNING **: 09:35:29.244: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:30729): Gtk-WARNING **: 09:35:29.245: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:30752): Gtk-WARNING **: 09:35:29.417: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:30752): Gtk-WARNING **: 09:35:29.418: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:30752): Gtk-WARNING **: 09:35:29.418: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:30752): Gtk-WARNING **: 09:35:29.418: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(firefox:30495): GLib-GIO-WARNING **: 09:35:29.431: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+
+(/usr/lib/firefox/firefox:30832): Gtk-WARNING **: 09:35:30.144: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 09:35:30.172: Failed to load module "appmenu-gtk-module"
+1607517330189	Marionette	INFO	Listening on port 39373
+1607517330277	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:30832): Gtk-WARNING **: 09:35:31.345: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:30832): Gtk-WARNING **: 09:35:31.345: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:30832): Gtk-WARNING **: 09:35:31.345: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:30832): Gtk-WARNING **: 09:35:31.345: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:30876): Gtk-WARNING **: 09:35:31.424: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 09:35:31.455: Failed to load module "appmenu-gtk-module"
+1607517358426	Marionette	INFO	Stopped listening on port 39373
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1607517398450	geckodriver	INFO	Listening on 127.0.0.1:43803
+1607517398455	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilesf4Nd1"
+
+(firefox:31159): Gtk-WARNING **: 09:36:38.506: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 09:36:38.530: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:31372): Gtk-WARNING **: 09:36:39.276: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 09:36:39.301: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:31397): Gtk-WARNING **: 09:36:39.418: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 09:36:39.448: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:31372): Gtk-WARNING **: 09:36:39.463: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:31372): Gtk-WARNING **: 09:36:39.463: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:31372): Gtk-WARNING **: 09:36:39.463: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:31372): Gtk-WARNING **: 09:36:39.463: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:31397): Gtk-WARNING **: 09:36:39.623: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:31397): Gtk-WARNING **: 09:36:39.623: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:31397): Gtk-WARNING **: 09:36:39.623: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:31397): Gtk-WARNING **: 09:36:39.624: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(firefox:31159): GLib-GIO-WARNING **: 09:36:39.659: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+
+(/usr/lib/firefox/firefox:31490): Gtk-WARNING **: 09:36:40.408: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 09:36:40.445: Failed to load module "appmenu-gtk-module"
+1607517400470	Marionette	INFO	Listening on port 36107
+1607517400627	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:31490): Gtk-WARNING **: 09:36:41.360: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:31490): Gtk-WARNING **: 09:36:41.361: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:31490): Gtk-WARNING **: 09:36:41.362: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:31490): Gtk-WARNING **: 09:36:41.362: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:31532): Gtk-WARNING **: 09:36:41.452: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 09:36:41.482: Failed to load module "appmenu-gtk-module"
+1607517447366	Marionette	INFO	Stopped listening on port 36107
+1607517470301	geckodriver	INFO	Listening on 127.0.0.1:47579
+1607517470306	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileKEAa1R"
+
+(firefox:31843): Gtk-WARNING **: 09:37:50.374: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 09:37:50.400: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:32067): Gtk-WARNING **: 09:37:51.167: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 09:37:51.201: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:32090): Gtk-WARNING **: 09:37:51.304: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 09:37:51.340: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:32067): Gtk-WARNING **: 09:37:51.344: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:32067): Gtk-WARNING **: 09:37:51.344: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:32067): Gtk-WARNING **: 09:37:51.344: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:32067): Gtk-WARNING **: 09:37:51.344: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:32090): Gtk-WARNING **: 09:37:51.534: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:32090): Gtk-WARNING **: 09:37:51.535: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:32090): Gtk-WARNING **: 09:37:51.535: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:32090): Gtk-WARNING **: 09:37:51.535: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(firefox:31843): GLib-GIO-WARNING **: 09:37:51.560: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+
+(/usr/lib/firefox/firefox:32182): Gtk-WARNING **: 09:37:52.336: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 09:37:52.365: Failed to load module "appmenu-gtk-module"
+1607517472398	Marionette	INFO	Listening on port 35265
+1607517472439	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:32182): Gtk-WARNING **: 09:37:55.450: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:32182): Gtk-WARNING **: 09:37:55.450: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:32182): Gtk-WARNING **: 09:37:55.451: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:32182): Gtk-WARNING **: 09:37:55.451: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:32225): Gtk-WARNING **: 09:37:55.531: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 09:37:55.561: Failed to load module "appmenu-gtk-module"
+1607517515966	Marionette	INFO	Stopped listening on port 35265
+1607517593270	geckodriver	INFO	Listening on 127.0.0.1:52421
+1607517593275	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilezV80dt"
+
+(firefox:32684): Gtk-WARNING **: 09:39:53.323: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 09:39:53.354: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:32906): Gtk-WARNING **: 09:39:54.153: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 09:39:54.182: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:32929): Gtk-WARNING **: 09:39:54.294: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 09:39:54.333: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:32906): Gtk-WARNING **: 09:39:54.357: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:32906): Gtk-WARNING **: 09:39:54.357: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:32906): Gtk-WARNING **: 09:39:54.358: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:32906): Gtk-WARNING **: 09:39:54.358: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:32929): Gtk-WARNING **: 09:39:54.509: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:32929): Gtk-WARNING **: 09:39:54.510: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:32929): Gtk-WARNING **: 09:39:54.510: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:32929): Gtk-WARNING **: 09:39:54.510: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(firefox:32684): GLib-GIO-WARNING **: 09:39:54.595: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+
+(/usr/lib/firefox/firefox:33019): Gtk-WARNING **: 09:39:55.354: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 09:39:55.386: Failed to load module "appmenu-gtk-module"
+1607517595392	Marionette	INFO	Listening on port 37409
+1607517595509	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:33019): Gtk-WARNING **: 09:39:58.417: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:33019): Gtk-WARNING **: 09:39:58.417: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:33019): Gtk-WARNING **: 09:39:58.418: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:33019): Gtk-WARNING **: 09:39:58.418: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:33071): Gtk-WARNING **: 09:39:58.518: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 09:39:58.551: Failed to load module "appmenu-gtk-module"
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 726))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 376))
+1607517635015	Marionette	INFO	Stopped listening on port 37409
+1607517646625	geckodriver	INFO	Listening on 127.0.0.1:35075
+1607517646630	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileCGHNw7"
+
+(firefox:33347): Gtk-WARNING **: 09:40:46.751: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 09:40:46.778: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:33568): Gtk-WARNING **: 09:40:47.569: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 09:40:47.594: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:33591): Gtk-WARNING **: 09:40:47.706: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 09:40:47.742: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:33568): Gtk-WARNING **: 09:40:47.750: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:33568): Gtk-WARNING **: 09:40:47.750: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:33568): Gtk-WARNING **: 09:40:47.750: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:33568): Gtk-WARNING **: 09:40:47.751: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:33591): Gtk-WARNING **: 09:40:47.946: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:33591): Gtk-WARNING **: 09:40:47.946: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:33591): Gtk-WARNING **: 09:40:47.947: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:33591): Gtk-WARNING **: 09:40:47.947: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(firefox:33347): GLib-GIO-WARNING **: 09:40:47.957: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+
+(/usr/lib/firefox/firefox:33680): Gtk-WARNING **: 09:40:48.733: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 09:40:48.763: Failed to load module "appmenu-gtk-module"
+1607517648796	Marionette	INFO	Listening on port 35721
+1607517648866	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 726))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 376))
+
+(/usr/lib/firefox/firefox:33680): Gtk-WARNING **: 09:40:53.865: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:33680): Gtk-WARNING **: 09:40:53.865: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:33680): Gtk-WARNING **: 09:40:53.865: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:33680): Gtk-WARNING **: 09:40:53.865: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:33739): Gtk-WARNING **: 09:40:53.949: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 09:40:53.982: Failed to load module "appmenu-gtk-module"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1607517833978	Marionette	INFO	Stopped listening on port 35721
+1607517869286	geckodriver	INFO	Listening on 127.0.0.1:56043
+1607517869291	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilejCtX9G"
+
+(firefox:34515): Gtk-WARNING **: 09:44:29.339: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 09:44:29.369: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:34743): Gtk-WARNING **: 09:44:30.164: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 09:44:30.190: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:34768): Gtk-WARNING **: 09:44:30.308: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+
+(/usr/lib/firefox/firefox:34743): Gtk-WARNING **: 09:44:30.345: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:34743): Gtk-WARNING **: 09:44:30.345: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+Gtk-Message: 09:44:30.345: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:34743): Gtk-WARNING **: 09:44:30.345: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:34743): Gtk-WARNING **: 09:44:30.345: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:34768): Gtk-WARNING **: 09:44:30.533: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:34768): Gtk-WARNING **: 09:44:30.533: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:34768): Gtk-WARNING **: 09:44:30.533: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:34768): Gtk-WARNING **: 09:44:30.534: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(firefox:34515): GLib-GIO-WARNING **: 09:44:30.573: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+
+(/usr/lib/firefox/firefox:34860): Gtk-WARNING **: 09:44:31.360: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 09:44:31.389: Failed to load module "appmenu-gtk-module"
+1607517871435	Marionette	INFO	Listening on port 40137
+1607517871523	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:34860): Gtk-WARNING **: 09:44:33.614: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:34860): Gtk-WARNING **: 09:44:33.614: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:34860): Gtk-WARNING **: 09:44:33.615: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:34860): Gtk-WARNING **: 09:44:33.615: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:34901): Gtk-WARNING **: 09:44:33.693: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 09:44:33.733: Failed to load module "appmenu-gtk-module"
+1607517949949	geckodriver	INFO	Listening on 127.0.0.1:42627
+1607517949954	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileqobtNd"
+
+(firefox:35240): Gtk-WARNING **: 09:45:50.007: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 09:45:50.034: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:35470): Gtk-WARNING **: 09:45:50.887: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 09:45:50.916: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:35493): Gtk-WARNING **: 09:45:51.043: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+
+(/usr/lib/firefox/firefox:35470): Gtk-WARNING **: 09:45:51.059: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:35470): Gtk-WARNING **: 09:45:51.059: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:35470): Gtk-WARNING **: 09:45:51.060: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:35470): Gtk-WARNING **: 09:45:51.060: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+Gtk-Message: 09:45:51.080: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:35493): Gtk-WARNING **: 09:45:51.251: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:35493): Gtk-WARNING **: 09:45:51.251: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:35493): Gtk-WARNING **: 09:45:51.252: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:35493): Gtk-WARNING **: 09:45:51.252: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(firefox:35240): GLib-GIO-WARNING **: 09:45:51.300: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+
+(/usr/lib/firefox/firefox:35582): Gtk-WARNING **: 09:45:52.059: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 09:45:52.090: Failed to load module "appmenu-gtk-module"
+1607517952115	Marionette	INFO	Listening on port 42413
+1607517952188	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:35582): Gtk-WARNING **: 09:45:53.884: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:35582): Gtk-WARNING **: 09:45:53.884: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:35582): Gtk-WARNING **: 09:45:53.885: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:35582): Gtk-WARNING **: 09:45:53.885: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:35629): Gtk-WARNING **: 09:45:53.983: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 09:45:54.019: Failed to load module "appmenu-gtk-module"
+1607517974377	Marionette	INFO	Stopped listening on port 42413
+1607517976972	Marionette	INFO	Stopped listening on port 40137
+1607518005409	geckodriver	INFO	Listening on 127.0.0.1:47293
+1607518005415	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile473WsD"
+
+(firefox:35939): Gtk-WARNING **: 09:46:46.079: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 09:46:46.105: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:36167): Gtk-WARNING **: 09:46:46.907: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 09:46:46.938: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:36190): Gtk-WARNING **: 09:46:47.040: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 09:46:47.075: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:36167): Gtk-WARNING **: 09:46:47.085: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:36167): Gtk-WARNING **: 09:46:47.086: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:36167): Gtk-WARNING **: 09:46:47.086: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:36167): Gtk-WARNING **: 09:46:47.086: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:36190): Gtk-WARNING **: 09:46:47.257: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:36190): Gtk-WARNING **: 09:46:47.257: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:36190): Gtk-WARNING **: 09:46:47.257: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:36190): Gtk-WARNING **: 09:46:47.258: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(firefox:35939): GLib-GIO-WARNING **: 09:46:47.338: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:36279): Gtk-WARNING **: 09:46:48.147: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 09:46:48.180: Failed to load module "appmenu-gtk-module"
+1607518008224	Marionette	INFO	Listening on port 40283
+1607518008332	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:36279): Gtk-WARNING **: 09:46:50.827: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:36279): Gtk-WARNING **: 09:46:50.828: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:36279): Gtk-WARNING **: 09:46:50.828: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:36279): Gtk-WARNING **: 09:46:50.828: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:36323): Gtk-WARNING **: 09:46:50.916: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 09:46:50.965: Failed to load module "appmenu-gtk-module"
+1607518506981	geckodriver	INFO	Listening on 127.0.0.1:41893
+1607518506986	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiledLpdKz"
+
+(firefox:37755): Gtk-WARNING **: 09:55:07.034: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 09:55:07.060: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:37987): Gtk-WARNING **: 09:55:07.827: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 09:55:07.852: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:38010): Gtk-WARNING **: 09:55:07.959: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 09:55:07.991: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:37987): Gtk-WARNING **: 09:55:08.006: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:37987): Gtk-WARNING **: 09:55:08.006: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:37987): Gtk-WARNING **: 09:55:08.006: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:37987): Gtk-WARNING **: 09:55:08.006: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:38010): Gtk-WARNING **: 09:55:08.171: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:38010): Gtk-WARNING **: 09:55:08.171: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:38010): Gtk-WARNING **: 09:55:08.172: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:38010): Gtk-WARNING **: 09:55:08.172: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(firefox:37755): GLib-GIO-WARNING **: 09:55:08.215: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+
+(/usr/lib/firefox/firefox:38103): Gtk-WARNING **: 09:55:09.042: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 09:55:09.071: Failed to load module "appmenu-gtk-module"
+1607518509074	Marionette	INFO	Listening on port 33859
+1607518509123	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 726))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 376))
+
+(/usr/lib/firefox/firefox:38103): Gtk-WARNING **: 09:55:29.833: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:38103): Gtk-WARNING **: 09:55:29.834: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:38103): Gtk-WARNING **: 09:55:29.834: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:38103): Gtk-WARNING **: 09:55:29.834: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:38231): Gtk-WARNING **: 09:55:29.919: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 09:55:29.948: Failed to load module "appmenu-gtk-module"
+1607518566232	geckodriver	INFO	Listening on 127.0.0.1:44821
+1607518566237	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilem6bszd"
+
+(firefox:38394): Gtk-WARNING **: 09:56:06.308: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 09:56:06.336: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:38627): Gtk-WARNING **: 09:56:07.089: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 09:56:07.115: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:38650): Gtk-WARNING **: 09:56:07.212: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 09:56:07.243: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:38627): Gtk-WARNING **: 09:56:07.255: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:38627): Gtk-WARNING **: 09:56:07.255: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:38627): Gtk-WARNING **: 09:56:07.255: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:38627): Gtk-WARNING **: 09:56:07.256: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:38650): Gtk-WARNING **: 09:56:07.412: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:38650): Gtk-WARNING **: 09:56:07.413: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:38650): Gtk-WARNING **: 09:56:07.414: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:38650): Gtk-WARNING **: 09:56:07.415: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(firefox:38394): GLib-GIO-WARNING **: 09:56:07.460: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+
+(/usr/lib/firefox/firefox:38738): Gtk-WARNING **: 09:56:08.216: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 09:56:08.245: Failed to load module "appmenu-gtk-module"
+1607518568259	Marionette	INFO	Listening on port 42319
+1607518568366	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 726))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 376))
+
+(/usr/lib/firefox/firefox:38738): Gtk-WARNING **: 09:56:13.582: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:38738): Gtk-WARNING **: 09:56:13.582: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:38738): Gtk-WARNING **: 09:56:13.583: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:38738): Gtk-WARNING **: 09:56:13.583: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:38819): Gtk-WARNING **: 09:56:13.661: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 09:56:13.688: Failed to load module "appmenu-gtk-module"
+1607518617608	Marionette	INFO	Stopped listening on port 42319
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1608318947848	geckodriver	INFO	Listening on 127.0.0.1:43779
+1608318948788	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile1ydeKG"
+
+(firefox:12131): Gtk-WARNING **: 16:15:48.900: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 16:15:48.935: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:12359): Gtk-WARNING **: 16:15:50.521: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 16:15:50.556: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:12359): Gtk-WARNING **: 16:15:50.725: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:12359): Gtk-WARNING **: 16:15:50.726: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:12359): Gtk-WARNING **: 16:15:50.727: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:12359): Gtk-WARNING **: 16:15:50.727: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:12384): Gtk-WARNING **: 16:15:50.734: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 16:15:50.782: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:12384): Gtk-WARNING **: 16:15:51.005: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:12384): Gtk-WARNING **: 16:15:51.005: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:12384): Gtk-WARNING **: 16:15:51.006: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:12384): Gtk-WARNING **: 16:15:51.006: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(firefox:12131): GLib-GIO-WARNING **: 16:15:51.055: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+
+(/usr/lib/firefox/firefox:12475): Gtk-WARNING **: 16:15:51.992: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 16:15:52.029: Failed to load module "appmenu-gtk-module"
+1608318952129	Marionette	INFO	Listening on port 39407
+1608318952166	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:12475): Gtk-WARNING **: 16:15:52.832: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:12475): Gtk-WARNING **: 16:15:52.833: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:12475): Gtk-WARNING **: 16:15:52.834: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:12475): Gtk-WARNING **: 16:15:52.835: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:12513): Gtk-WARNING **: 16:15:52.922: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 16:15:52.957: Failed to load module "appmenu-gtk-module"
+1608318991061	Marionette	INFO	Stopped listening on port 39407
+1608319167446	geckodriver	INFO	Listening on 127.0.0.1:52939
+1608319167452	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileDlthK7"
+
+(firefox:13537): Gtk-WARNING **: 16:19:27.509: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 16:19:27.543: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:13761): Gtk-WARNING **: 16:19:28.492: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 16:19:28.524: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:13785): Gtk-WARNING **: 16:19:28.651: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 16:19:28.691: Failed to load module "appmenu-gtk-module"
+
+(/usr/lib/firefox/firefox:13761): Gtk-WARNING **: 16:19:28.705: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:13761): Gtk-WARNING **: 16:19:28.705: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:13761): Gtk-WARNING **: 16:19:28.705: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:13761): Gtk-WARNING **: 16:19:28.705: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:13785): Gtk-WARNING **: 16:19:28.903: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:13785): Gtk-WARNING **: 16:19:28.903: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:13785): Gtk-WARNING **: 16:19:28.903: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:13785): Gtk-WARNING **: 16:19:28.904: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(firefox:13537): GLib-GIO-WARNING **: 16:19:28.943: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+
+(/usr/lib/firefox/firefox:13876): Gtk-WARNING **: 16:19:29.793: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 16:19:29.832: Failed to load module "appmenu-gtk-module"
+1608319169944	Marionette	INFO	Listening on port 39041
+1608319169990	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:13876): Gtk-WARNING **: 16:19:31.094: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:13876): Gtk-WARNING **: 16:19:31.095: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:13876): Gtk-WARNING **: 16:19:31.095: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:13876): Gtk-WARNING **: 16:19:31.096: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(/usr/lib/firefox/firefox:13918): Gtk-WARNING **: 16:19:31.220: Theme parsing error: gtk.css:2:33: Failed to import: Erro ao abrir arquivo /home/renato/.config/gtk-3.0/window_decorations.css: Arquivo ou diretório inexistente
+Gtk-Message: 16:19:31.267: Failed to load module "appmenu-gtk-module"
+1608319191631	Marionette	INFO	Stopped listening on port 39041
