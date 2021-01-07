@@ -21,3 +21,5 @@ def get_mysql():
                          password='renato20',
                          db='test')
 	return con
+
+print('Hello world')

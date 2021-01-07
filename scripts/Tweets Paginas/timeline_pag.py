@@ -6,10 +6,10 @@ api = conexao.get_api()
 con = conexao.get_mysql()
 cursor = con.cursor()
 
-username = 'VEJA'
+username = 'portalR7'
 
 
-count = 400
+count = 100
 try:     
 	# Creation of query method using parameters
 	tweets = tweepy.Cursor(api.user_timeline,id=username).items(count)

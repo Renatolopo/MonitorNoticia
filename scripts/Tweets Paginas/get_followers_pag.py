@@ -17,12 +17,13 @@ con = conexao.get_mysql()
 cursor = con.cursor()
 
 # paginas = ['@G1','@sbtjornalismo','@VEJA','@folha','@portalR7']
-pag = '@portalR7'
-count=400
+pag = '@sbtjornalismo'
+count=500
 
 try:
 	followers = tweepy.Cursor(api.followers,screen_name=pag).items(count)
 			 
+
 	for follower in followers:
 		try:
 			cursor.execute('INSERT INTO user_follow (nome, segue) VALUES (%s, %s)', (follower.screen_name, pag))

@@ -9,12 +9,21 @@ def get_user_timeline(api, username, user_fk):
 
 	count = 200
 	try:     
-		 # Creation of query method using parameters
-		 tweets = tweepy.Cursor(api.user_timeline,id=username).items(count)
-		 tweets = [[tweet.user.screen_name, tweet.text, tweet.created_at ]for tweet in tweets]
-		 
-		 for tweet in tweets:
-		 	print(f'{user_fk} - {tweet}')
+		# Creation of query method using parameters
+		tweets = tweepy.Cursor(api.user_timeline,id=username).items(count)
+		tweets = [[tweet.user.screen_name, tweet.text, tweet.created_at ]for tweet in tweets]
+
+		for tweet in tweets:
+		 	#print(f'{user_fk} - {tweet}')
+			try:
+				cursor.execute('INSERT INTO tweets_aleatorio (user_nome, tweet, user_fk, data) VALUES (%s, %s, %s, %s)', (tweet[0], tweet[1], user_fk, tweet[2]))
+				print('Adicionado')
+			except:
+				# essa exceção acontece caso o usuário já exista na base de dados
+				print('Não adicionado')
+				continue
+			con.commit()
+
 		 
 	except tweepy.error.RateLimitError:
 		print('RateLimitError aguardando...')
