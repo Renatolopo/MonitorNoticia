@@ -21,3 +21,4 @@
   - O driver que for ser usado precisa ser extraido e colocado no $PATH da sua maquina ou passado 
   como parametro o caminho onde ele se encontra na hora de chamar o construtor do webdriver no script.
   
+  - [ ] sla
