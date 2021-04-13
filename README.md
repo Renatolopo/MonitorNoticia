@@ -1,4 +1,7 @@
 # MonitorNoticia
+[![GitHub](https://img.shields.io/github/license/Renatolopo/MonitorNoticia)](https://github.com/Renatolopo/MonitorNoticia/blob/master/LICENSE)
+
+# Sobre o Projeto
 Este trabalho propõe uma ferramenta para monitorar o que é publicado no país, seja na grande mídia ou seja nas redes sociais, neste trabalho será considerado a rede social Twitter e cinco sites de tradicionais veículos de comunicação, sendo eles G1, SBT, R7, revista Veja e Jornal Folha de São Paulo. A definição dos sites que foram monitorados neste trabalho se baseou em sistematizações promovidas pelo projeto [Media Ownership Monitor Brasil](http://brazil.mom-rsf.org/br/). Com a ferramenta proposta será possível observar  tendências na sociedade, preferências dos veículos de comunicação, repercussão de eventos na grande mídia e no Twitter, características das notícias da grande mídia e padrões de postagens no Twitter, entre outras possibilidades.
 
 Este Repositório está disponibilizando os scripts de coleta e analise de dados usados no Projeto de Pesquisa "MONITOR DE NOTÍCIAS: SISTEMA PARA ANALISAR CONTEÚDOS PUBLICADOS EM SITES DA GRANDE MÍDIA E NA REDE SOCIAL TWITTER NO CONTEXTO BRASILEIRO" Feito por [Renato Lopo](https://github.com/Renatolopo) no IFNMG campus Januária.
