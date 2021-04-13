@@ -7,7 +7,6 @@ class MyStreamListener(tweepy.StreamListener):
 
     def on_status(self, status):
         print(status.text)
-        #set_database(status)
 
     def on_error(self, status_code):
         if status_code == 420:
@@ -34,10 +33,10 @@ def set_database(tweet):
 
 
 # credenciais
-chave_consumidor = 'uvYDBa4HA6xSbGDVVLuL5kWWW'
-segredo_consumidor = 'RGyzZdfEjdMSm87109yiMyPqkaLYEN1ox0ogOQSaxENyU9ziq6'
-token_acesso = '2559540815-3OWEk9l7ImzsH9UP4ZVZ6aKgCwV94s6EdaodlQC'
-token_acesso_segredo = 'p6eZ7banSAdSt3mDd5TxyVLwD7me66HDSxGhyQjW2Iqk0'
+chave_consumidor = 'xx'
+segredo_consumidor = 'xx'
+token_acesso = 'x-x'
+token_acesso_segredo = 'xx'
 
 # criando uma autenticação
 autenticacao = tweepy.OAuthHandler(chave_consumidor, segredo_consumidor)

@@ -16,7 +16,6 @@ try:
 	tweets = [[tweet.user.screen_name, tweet.text, tweet.created_at, tweet.id]for tweet in tweets]
 
 	for tweet in tweets:
-		#print(f'{tweet}')
 		try:
 			cursor.execute('INSERT INTO tweet_paginas (nome, tweet, data, id_tweet) VALUES (%s, %s, %s, %s)', (tweet[0], tweet[1], tweet[2], tweet[3]))
 			print('Adicionado')

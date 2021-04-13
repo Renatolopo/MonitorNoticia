@@ -1,5 +1,6 @@
 import conexao
 import tweepy
+from time import sleep
 
 api = conexao.get_api(stream=True)
 

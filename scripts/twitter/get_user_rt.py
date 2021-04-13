@@ -8,9 +8,6 @@ sql = "select pk_cod, nome, id_tweet from tweet_paginas where pk_cod > 4331 and 
 cursor.execute(sql)
 consulta = cursor.fetchall()
 for tupla in consulta:
-	#print(tupla)
-
-
 	id_tweet = tupla[2]
 	pk_cod = tupla[0]
 	fonte = tupla[1]
@@ -18,7 +15,6 @@ for tupla in consulta:
 
 	retweets = api.retweets(id=id_tweet, count=50)
 	for rt in retweets:
-		#print(rt.user.screen_name)
 		try:
 			cursor.execute('INSERT INTO user_rt (nome, rt_em_fk) VALUES (%s, %s)', (rt.user.screen_name, pk_cod))
 			print('Adicionado')

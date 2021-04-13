@@ -121,3 +121,43 @@ create table tweets_rt(user_nome varchar(50),
                       )default charset=utf8;
 
 
+create table noticia_vacina(
+  id int auto_increment,
+  primary key(id),
+  title varchar(500) unique,
+  link varchar(500),
+  publishied varchar(200),
+  site varchar(50)
+  )default charset=utf8;
+  
+create table comentario_vacina(
+  fk_id int,
+  foreign key(fk_id) references noticia_vacina(id),
+  comentario varchar(2000),
+  site varchar(50)
+  )default charset=utf8;
+
+  create table vacina_paginas_noticia(
+  pk_cod int,
+  primary key(pk_cod),
+  nome varchar(100),
+  tweet varchar(1000),
+  data varchar(50),
+  id_tweet varchar(50)
+)default charset=utf8;
+
+create table vacina_user_rt(
+  pk_cod int auto_increment,
+  primary key(pk_cod),
+  nome varchar(50), 
+  rt_em_fk int,
+  foreign key(rt_em_fk) references vacina_paginas_noticia(pk_cod)
+)default charset=utf8;   
+
+create table vacina_tweets_rt(
+ user_nome varchar(50), 
+ tweet varchar(1000) unique, 
+ user_fk int,
+ foreign key(user_fk) references vacina_user_rt(pk_cod),
+ data varchar(50)
+ )default charset=utf8;

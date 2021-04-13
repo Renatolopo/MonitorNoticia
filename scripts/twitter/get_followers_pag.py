@@ -16,7 +16,7 @@ api = conexao.get_api()
 con = conexao.get_mysql()
 cursor = con.cursor()
 
-# paginas = ['@G1','@sbtjornalismo','@VEJA','@folha','@portalR7']
+
 pag = '@sbtjornalismo'
 count=500
 

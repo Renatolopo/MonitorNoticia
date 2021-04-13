@@ -3,10 +3,10 @@ import pymysql as MySQLdb
 from time import sleep
 
 
-chave_consumidor = 'uvYDBa4HA6xSbGDVVLuL5kWWW'
-segredo_consumidor = 'RGyzZdfEjdMSm87109yiMyPqkaLYEN1ox0ogOQSaxENyU9ziq6'
-token_acesso = '2559540815-3OWEk9l7ImzsH9UP4ZVZ6aKgCwV94s6EdaodlQC'
-token_acesso_segredo = 'p6eZ7banSAdSt3mDd5TxyVLwD7me66HDSxGhyQjW2Iqk0'
+chave_consumidor = 'xx'
+segredo_consumidor = 'xx'
+token_acesso = 'x-x'
+token_acesso_segredo = 'xx'
 
 autenticacao = tweepy.OAuthHandler(chave_consumidor, segredo_consumidor)
 autenticacao.set_access_token(token_acesso, token_acesso_segredo)
@@ -48,7 +48,6 @@ def getTweets(name, cursor):
 
 while True:
 	con = MySQLdb.connect(host="200.131.5.71", user="renato", passwd="renato20", db="Monitor_de_noticia")
-	#con.select_db('Monitor_de_noticias')
 	cursor = con.cursor()
 	cont = 0
 
@@ -63,14 +62,3 @@ while True:
 		con.commit()
 	con.close()
 	print('*********************************************************************************')
-
-
-'''
-API key: uvYDBa4HA6xSbGDVVLuL5kWWW
-
-API key secret: RGyzZdfEjdMSm87109yiMyPqkaLYEN1ox0ogOQSaxENyU9ziq6
-
-Access token: 2559540815-3OWEk9l7ImzsH9UP4ZVZ6aKgCwV94s6EdaodlQC
-
-Access token secret: p6eZ7banSAdSt3mDd5TxyVLwD7me66HDSxGhyQjW2Iqk0
-'''

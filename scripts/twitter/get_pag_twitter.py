@@ -37,10 +37,6 @@ con.close()
 
 
 
-# tweet_noticia(id_tweet,tweet,user,data)
-# user_rt(id_tweet,tweet_que_deu_rt,tweet,user,data)
-
-
 # http://docs.tweepy.org/en/v3.5.0/api.html
 # https://www.geeksforgeeks.org/python-status-object-in-tweepy/
 # https://gist.github.com/marcoscastro/bc43e1741b4af47fda0ef289093aae01

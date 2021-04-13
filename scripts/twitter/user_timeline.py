@@ -14,7 +14,6 @@ def get_user_timeline(api, username, user_fk):
 		tweets = [[tweet.user.screen_name, tweet.text, tweet.created_at ]for tweet in tweets]
 
 		for tweet in tweets:
-		 	#print(f'{user_fk} - {tweet}')
 			try:
 				cursor.execute('INSERT INTO tweets_aleatorio (user_nome, tweet, user_fk, data) VALUES (%s, %s, %s, %s)', (tweet[0], tweet[1], user_fk, tweet[2]))
 				print('Adicionado')
@@ -34,8 +33,6 @@ def get_user_timeline(api, username, user_fk):
 	      sleep(3)
 
 api = conexao.get_api()
-
-#get_user_timeline(api, 'Montalvaooo')
 
 
 con = conexao.get_mysql()
