@@ -41,9 +41,7 @@ Este Repositório está disponibilizando os scripts de coleta e analise de dados
   
   [tweets_trendig_topics](https://github.com/Renatolopo/MonitorNoticia/blob/master/scripts/twitter/tweets_trendig-topics.py) - coleta tweets pesquisando pelos termos que estão nos trending topics.
   
-### Banco de Dados
 
-### Coleta de conteúdos sobre as vacinas do Covid-19
 ---- 
 #### principais Bibliotecas utilizadas:
   - selenium
