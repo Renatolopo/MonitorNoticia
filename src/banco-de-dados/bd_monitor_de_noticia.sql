@@ -161,3 +161,12 @@ create table vacina_tweets_rt(
  foreign key(user_fk) references vacina_user_rt(pk_cod),
  data varchar(50)
  )default charset=utf8;
+
+
+ CREATE TABLE vacina_search_tweets(
+id INT NOT NULL auto_increment,
+usuario VARCHAR(255),
+tweet VARCHAR(1000) not null unique,
+data_tweet VARCHAR(255),
+primary key(id)
+)default charset=utf8;

@@ -2,8 +2,6 @@
 [![GitHub](https://img.shields.io/github/license/Renatolopo/MonitorNoticia)](https://github.com/Renatolopo/MonitorNoticia/blob/master/LICENSE)
 
 # Sobre o Projeto
-Este trabalho propõe uma ferramenta para monitorar o que é publicado no país, seja na grande mídia ou seja nas redes sociais, neste trabalho será considerado a rede social Twitter e cinco sites de tradicionais veículos de comunicação, sendo eles G1, SBT, R7, revista Veja e Jornal Folha de São Paulo. A definição dos sites que foram monitorados neste trabalho se baseou em sistematizações promovidas pelo projeto [Media Ownership Monitor Brasil](http://brazil.mom-rsf.org/br/). Com a ferramenta proposta será possível observar  tendências na sociedade, preferências dos veículos de comunicação, repercussão de eventos na grande mídia e no Twitter, características das notícias da grande mídia e padrões de postagens no Twitter, entre outras possibilidades.
-
 Este Repositório está disponibilizando os scripts de coleta e analise de dados usados no Projeto de Pesquisa "MONITOR DE NOTÍCIAS: SISTEMA PARA ANALISAR CONTEÚDOS PUBLICADOS EM SITES DA GRANDE MÍDIA E NA REDE SOCIAL TWITTER NO CONTEXTO BRASILEIRO" Feito por [Renato Lopo](https://github.com/Renatolopo) no IFNMG campus Januária.
 
 ## Coleta dos dados
@@ -57,5 +55,10 @@ Este Repositório está disponibilizando os scripts de coleta e analise de dados
   
 #### Drivers
 Para utilizar o selenium e nescessário utilizar web drivers para conectar com um navegador. Neste Projeto foi utilizado o geckodriver um driver do mozilla FireFox disponivel em https://github.com/mozilla/geckodriver/releases.
+
+
+## Análise de sentimento
+
+A análise de sentimento foi feita grande parte usando a biblioteca [scikit-learn.](https://scikit-learn.org/stable/), foram usado os algoritmos CountVectorizer e naive bayes para fazer a classificação junto com duas bases de treino, porém em outro trabalho eu consegui melhorar o modelo e conseguir uma acuracia melhor usando esse [script](https://github.com/Renatolopo/NLP-Vacinas/blob/main/src/selecao_de_modelo.ipynb), o repositorio com esse trabalho completo se encontra [aqui](https://github.com/Renatolopo/NLP-Vacinas) onde eu faço uma análise com os dados coletados, só que voltado para o assunto da vacina da Covid-19.
 
   
