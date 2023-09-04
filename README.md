@@ -2,7 +2,7 @@
 [![GitHub](https://img.shields.io/github/license/Renatolopo/MonitorNoticia)](https://github.com/Renatolopo/MonitorNoticia/blob/master/LICENSE)
 
 # Sobre o Projeto
-Este Repositório está disponibilizando os scripts de coleta e analise de dados usados no Projeto de Pesquisa "MONITOR DE NOTÍCIAS: SISTEMA PARA ANALISAR CONTEÚDOS PUBLICADOS EM SITES DA GRANDE MÍDIA E NA REDE SOCIAL TWITTER NO CONTEXTO BRASILEIRO" Feito por [Renato Lopo](https://github.com/Renatolopo) no IFNMG campus Januária.
+Este Repositório está disponibilizando os scripts de coleta e analise de dados usados no Projeto de Pesquisa "MONITOR DE NOTÍCIAS: SISTEMA PARA ANALISAR CONTEÚDOS PUBLICADOS EM SITES DA GRANDE MÍDIA E NA REDE SOCIAL TWITTER NO CONTEXTO BRASILEIRO" que desenvolvi no IFNMG campus Januária.
 
 ## Coleta dos dados
  Os dados foram  coletados fazendo  web scraping com selenium e BeautifulSoup, leitura de feed RSS e utilizando a API do Twitter.
